@@ -4,7 +4,7 @@ export default function MainBody(){
     return(
         <>
      
-     <div className="flex flex-col md:flex-row space-y-4 md:mt-[233px] md:ml-[360px] sm:ml-[34px] md:space-y-0 md:space-x-4">
+     <div className="flex flex-col md:flex-row space-y-4 md:mt-[233px] md:ml-[460px] md:space-y-0 md:space-x-4">
      <div className="w-[433px] h-[433px] flex justify-center items-center">
     <div className="absolute w-80 h-96 ml-[50px] rotate-6 rounded-2xl bg-gray-400 transform scale-200"></div>
 
@@ -16,8 +16,9 @@ export default function MainBody(){
         <header className="text-center text-xl font-extrabold text-gray-600">2021.09.01</header>
 
         <div>
-            <p className="text-center text-5xl font-extrabold text-gray-900">Online Test (Physics)</p>
-            <p className="text-center text-4xl font-extrabold text-[#FE5401]">2 hours</p>
+            <p className="text-center text-5xl font-extrabold text-gray-900">Tip (Me)</p>
+            <p className="text-center text-4xl font-extrabold text-[#FE5401]">waiter / chef
+</p>
         </div>
 
         <footer className="mb-10 flex justify-center">
@@ -30,7 +31,7 @@ export default function MainBody(){
 </div>
 
 
-    <div className="w-[433px] place-items-center h-[433px]">
+    <div className="w-[433px] place-items-center sm:ml-[134px] h-[433px]">
     <div className="absolute w-80 h-96 ml-[25px] rotate-6 rounded-2xl bg-gray-400 transform scale-200"></div>
 
 <div className="w-80 h-96 rotate-6 space-y-6 rounded-2xl bg-gray-100 p-6 transition duration-300 hover:rotate-0 transform scale-200">
@@ -41,8 +42,8 @@ export default function MainBody(){
     <header className="text-center text-xl font-extrabold text-gray-600">2021.09.01</header>
 
     <div>
-        <p className="text-center text-5xl font-extrabold text-gray-900">Online Test (Physics)</p>
-        <p className="text-center text-4xl font-extrabold text-[#FE5401]">2 hours</p>
+        <p className="text-center text-5xl font-extrabold text-gray-900">Rate Us (Survey)</p>
+        <p className="text-center text-4xl font-extrabold text-[#FE5401]">Restaurant</p>
     </div>
 
     <footer className="mb-10 flex justify-center">
