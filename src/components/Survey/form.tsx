@@ -3,7 +3,8 @@ import React from "react";
 export default function SurveyForm(){
     return(
         <>
-        <div className="bg-white border rounded-lg px-8 py-6 mx-auto my-8 max-w-2xl">
+           <div className="bg-white border rounded-lg px-8 py-6 mx-auto my-8 max-w-2xl">
+
     <h2 className="text-2xl font-medium mb-4">Survey</h2>
     <form>
         <div className="mb-4">
@@ -77,7 +78,8 @@ export default function SurveyForm(){
         </div>
 
     </form>
-</div>
+    </div>
+
         </>
     )
 }
